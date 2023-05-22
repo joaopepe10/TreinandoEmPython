@@ -1,0 +1,5 @@
+nome=str(input('Digite seu nome completo: ')).title()
+n1=nome.split()
+print(f'O primerio nome e :{n1[0]}')
+ultimo_espaco=nome.rfind(' ')
+print(nome[ultimo_espaco:])
